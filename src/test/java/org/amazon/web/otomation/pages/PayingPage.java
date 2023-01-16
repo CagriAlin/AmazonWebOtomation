@@ -55,7 +55,6 @@ public class PayingPage {
             logger.info("Bu adresi kullan butonuna tıklandı.");
             methods.moveToElementAndClick(By.xpath("//a[contains(text(),'Kredi kartı veya banka kartı ekleyin')]"));
             methods.waitBySecondslong(1);
-            methods.moveToElementAndClickXY(By.id("a-popover-header-1"));
             methods.sendKey(By.xpath("//input[@name='addCreditCardNumber']"),"1222344456667888");
             logger.info("Kart bilgileri girildi.");
             methods.waitBySecondslong(1);

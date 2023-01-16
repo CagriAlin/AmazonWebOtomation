@@ -29,11 +29,6 @@ public class Methods {
         WebElement we = driver.findElement(by);
         action.moveToElement(we).moveToElement(driver.findElement(by)).click().build().perform();
     }
-    public void moveToElementAndClickXY(By by){
-        Actions action = new Actions(driver);
-        WebElement we = driver.findElement(by);
-        action.moveToElement(we).moveByOffset(300,250).click().build().perform();
-    }
 
     public WebElement findElement(By by) {
 
