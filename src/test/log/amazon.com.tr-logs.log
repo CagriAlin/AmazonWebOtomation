@@ -89,3 +89,8 @@ Session ID: 3542b4d903793eefda7a48f1821b5961
 2023-01-16 16:38:43 INFO  DriverSetup:25 - Mail adresi girildi.
 2023-01-16 16:38:47 INFO  DriverSetup:30 - Şifre girildi.
 2023-01-16 16:38:48 INFO  DriverSetup:33 - Giriş yapıldı.
+2023-01-16 16:39:00 INFO  DriverSetup:36 - Giriş yapıldığı doğrulandı.
+2023-01-16 16:39:01 INFO  DriverSetup:43 - Arama çubuğuna telefon yazıldı.
+2023-01-16 16:39:06 INFO  DriverSetup:46 - Telefon aratıldı.
+2023-01-16 16:39:06 INFO  DriverSetup:48 - Telefon aratılıldığı doğrulandı.
+2023-01-16 16:39:11 INFO  DriverSetup:28 - 6. ürün açıldı.
