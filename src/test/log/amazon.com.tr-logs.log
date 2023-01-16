@@ -1,0 +1,49 @@
+2023-01-16 16:10:33 INFO  DriverSetup:24 - ***AMAZON WEB SİTESİ OTOMASYON TESTİ BAŞLIYOR***
+2023-01-16 16:10:33 INFO  DriverSetup:26 - Anasayfa açıldı.
+2023-01-16 16:10:34 INFO  DriverSetup:29 - Çerezler kabul edildi.
+2023-01-16 16:10:35 INFO  DriverSetup:31 - Giriş için sayfa açıldı açıldı.
+2023-01-16 16:10:36 INFO  DriverSetup:25 - Mail adresi girildi.
+2023-01-16 16:10:39 INFO  DriverSetup:30 - Şifre girildi.
+2023-01-16 16:10:40 INFO  DriverSetup:33 - Giriş yapıldı.
+2023-01-16 16:10:44 INFO  DriverSetup:36 - Giriş yapıldığı doğrulandı.
+2023-01-16 16:10:45 INFO  DriverSetup:43 - Arama çubuğuna telefon yazıldı.
+2023-01-16 16:10:49 INFO  DriverSetup:46 - Telefon aratıldı.
+2023-01-16 16:10:49 INFO  DriverSetup:48 - Telefon aratılıldığı doğrulandı.
+2023-01-16 16:11:00 INFO  DriverSetup:24 - 6. ürün açıldı.
+2023-01-16 16:11:02 ERROR DriverSetup:37 - Hata:org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="add-to-cart-button" name="submit.add-to-cart" title="Alışveriş Sepetine Ekle" data-hover="Sol taraftan <b>__dims__</b> seçtikten sonra<br> alışveriş sepetine ekleyebilirsiniz." data-ref="" class="a-button-input attach-dss-atc" type="button" value="Sepete Ekle" aria-labelledby="submit.add-to-cart-announce" formaction="/cart/add-to-cart/ref=dp_start-bbf_1_glance"> is not clickable at point (1473, 574). Other element would receive the click: <img id="detailImg" src="https://m.media-amazon.com/images/I/71iO2R+CLjL._AC_SL1500_.jpg" style="position: absolute; left: -29.5px; top: -885px;">
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08a43732a60e349541edab1ef268bcc4, clickElement {id=9fffb004-2e8c-4ba1-a94b-e4430a486739}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58765/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (08a43732a60e349541edab1ef268bcc4)] -> id: add-to-cart-button]
+Session ID: 08a43732a60e349541edab1ef268bcc4
+2023-01-16 16:11:32 ERROR DriverSetup:28 - Hata:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: sc-buy-box-ptc-button (tried for 30 second(s) with 300 milliseconds interval)
+2023-01-16 16:11:41 ERROR DriverSetup:81 - Hata:org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08a43732a60e349541edab1ef268bcc4, findElement {using=id, value=shipToThisAddressButton}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58765/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a43732a60e349541edab1ef268bcc4
+2023-01-16 16:11:41 ERROR DriverSetup:43 - Hata:org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08a43732a60e349541edab1ef268bcc4, findElement {using=xpath, value=//input[@data-action='delete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58765/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a43732a60e349541edab1ef268bcc4
+2023-01-16 16:11:41 ERROR DriverSetup:55 - Hata:org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08a43732a60e349541edab1ef268bcc4, findElement {using=id, value=nav-item-signout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58765/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08a43732a60e349541edab1ef268bcc4
